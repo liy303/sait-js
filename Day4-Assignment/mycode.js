@@ -1,7 +1,4 @@
 console.log('Hello Quotes!')
-var fullName = 'lin';
- fullName +='yuan';
- console.log(fullName);
 
 //  var Q1=prompt("What's your favourite quote?");
 //   console.log("Thanks for your contribution, I'll add your favorite quote into our machine!");
@@ -11,13 +8,18 @@ var quotes = ["Don't cry because it's over, smile because it happened.― Dr. Se
 // for(var i=0;i<=quotes.length;i++){
 //     console.log(quotes[i]);
 // }
-function updateQuotes(){
-    for (var i=0; i<=quotes.length; i++) {
-    document.write(quotes[i]);
-    }
-}
+var i=0;
+setInterval(function(){
+    document.getElementById('quotegoeshere').innerHTML=quotes[i++];
+    if (i==quotes.length) i=0;},3000);
+
+// function updateQuotes(){
+//     if (var i=0; i<=quotes.length; i++) {
+//     document.write(quotes[i]);
+//     }
+// }
 // updateQuotes();
-setInterval(updateQuotes,3000)
+// setInterval(updateQuotes,3000)
 // document.getElementById('wrapper').style.backgroundColor='pink';
 // document.getElementById('wrapper').style.height='300px';
 // document.getElementById('wrapper').style.marginTop='0px';
