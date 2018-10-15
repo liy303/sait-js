@@ -28,6 +28,9 @@ for (var num=1;num<=12;num++){
     }
 }
 
+for (var num=1; num<= 2;num++){
+    console.log(num*9);
+}
 // // **Loops and Logic Activity
 for(var num=0;num<=20;num++){
     if(num%2===0){
