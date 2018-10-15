@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day5-Classnotes</title>
+</head>
+<body>
+    <form id='newsletterForm' name='myForm'>
+        <label for="firstname">First Name</label>
+        <input type='text' name="firstName"><br>
+        <label for="lastname">Last Name</label>
+        <input type="text" name='lastName'><br>
+       
+        <label for="married">Married</label>
+        <input type="radio" name="married" value="Yes" checked /> Yes
+        <input type="radio" name="married" value="No" /> No <br>
+        <input type="email" name="email" placeholder="email@gmail.com" pattern=".+@gmail.com" size='30' required title='Must be a gmail address'/>
+        <button name='submit' type='submit'>Submit</button> <br>
+    <!-- checkbox part -->
+        <input type="checkbox" id="student" name="feature" value='student'/>
+        <label for="student">student</label>
+        <input type="checkbox" id="employee" name='feature' value='employee'checked/>
+        <label for="employee">employee</label> 
+        <input type="checkbox" id='employer' name='feature' value='employer'/>
+        <label for="employer">employer</label><br>
+    <!-- Built-in form validation -->
+        <label for="choose">Which one do you prefer for summer vacation, Hawaii or Iceland?</label>
+        <input id='choose' name='i_choose' type="text" pattern='Hawaii|Iceland|hawaii|iceland' required><br>
+        <label for="score">Between 1-10 how many scores do you rate Hawaii as your next vacation destination?</label>
+        <input id='number' type="number" name='number' min="1" max="10" required><br>
+        <button>Submit My Opinion</button>
+    </form>
+    <script src='mycodeAM.js'></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day5-Assignment</title>
+</head>
+<body>
+    <h1>Let's shake paws!</h1><br>
+    <p>Please fill out the following information</p><br>
+    <form action="" id='inforform' name='inforform'>
+        <!-- Text -->
+        First Name: <input type="text" name='firstName' required><br>
+        Last Name: <input type="text" name='lastName' required><br>
+        Phone Number: <input type="text" name='phone' required ><br>
+        Email: <input type="text" name='email' placeholder='email@gmail.com' pattern='.+@gmail.com' size='30' required title='Must be a gmail address'><br>
+        <!-- Radio -->
+        Gender: <input type="radio" name='gender' value='male'> Male 
+        <input type="radio" name='gender' value='female' checked> Female <br>
+        <!--  Checkbox-->
+        Your fur-friend is? <input type="checkbox" name='pet'value='Puppy' checked> Puppy 
+        <input type="checkbox" name='pet' value='Kitten'> Kitten
+        <input type="checkbox" name='pet' value='Other'> Other <br>
+        <!-- Text -->
+        We are listening! <input type="text" name='messagebox'minlength="10" placeholder='Tell us your story about your pet and your shared memory!' required><br>
+        <BUTTON name='submit' type='submit'>Submit</BUTTON><br>
+
+        <!-- Error Messages -->
+        <p id='errorFirstname' style='display:none;'>Please enter your first name</p>    
+        <p id='errorLastname' style='display:none;'>Please enter your last name</p>
+        <p id='errorPhonenumber' style='display:none;'>Please enter your phonenumber</p>  
+        <p id='errorFirstname' style='display:none;'>Please enter your first name</p>
+
+    </form>
+
+
+    <script src='mycode.js'></script>
+</body>
+</html>

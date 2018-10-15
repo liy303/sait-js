@@ -12,7 +12,10 @@ var i=0;
 setInterval(function(){
     document.getElementById('quotegoeshere').innerHTML=quotes[i++];
     if (i==quotes.length) i=0;},3000);
-
+document.getElementById('quotegoeshere').style.color='blue';
+document.getElementById('quotegoeshere').style.fontSize='35px';
+document.getElementById('quotegoeshere').style.textAlign='center';
+document.getElementById('quotegoeshere').style.fontFamily='h1-font';
 // function updateQuotes(){
 //     if (var i=0; i<=quotes.length; i++) {
 //     document.write(quotes[i]);

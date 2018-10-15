@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day5-Exercise</title>
+</head>
+<body>
+    <form action="" name='Form1'>
+        Please enter the following details:
+        <p>
+            Name: <input type="text" id='txtName' name='txtName'>
+        </p>
+        <p>
+            Age: <input type="text" id='txtAge' name='txtAge'>
+        </p>
+        <p>
+            <input type="submit" id='submit' value='submit' name='submit'>
+        </p>
+
+        <!-- Error Messages -->
+        <p id='errorName' style='display:none;'>Please enter your name.</p>
+        <p id='errorAge' style='display:none;'>Please enter your age.</p>
+        <p id='errorAgeRange' style='display:none;'>You need to be at least 18 years old to open this page.</p>
+    </form>
+    <script src='mycode.js'></script>
+</body>
+</html>
