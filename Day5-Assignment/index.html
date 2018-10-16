@@ -7,21 +7,22 @@
     <title>Day5-Assignment</title>
 </head>
 <body>
-    <h1>Let's shake paws!</h1><br>
-    <p>Please fill out the following information</p><br>
-    <form action="" id='inforform' name='inforform'>
+    <h1>Are you a good fur-friend companion?</h1><br>
+    <p>Check out the score once you finish each of the following questions!</p><br>
+    <form action="" id='petownerform' name='petownerform'>
         <!-- Text -->
         First Name: <input type="text" name='firstName' required><br>
         Last Name: <input type="text" name='lastName' required><br>
         Phone Number: <input type="text" name='phone' required ><br>
         Email: <input type="text" name='email' placeholder='email@gmail.com' pattern='.+@gmail.com' size='30' required title='Must be a gmail address'><br>
-        <!-- Radio -->
-        Gender: <input type="radio" name='gender' value='male'> Male 
-        <input type="radio" name='gender' value='female' checked> Female <br>
+        
         <!--  Checkbox-->
         Your fur-friend is? <input type="checkbox" name='pet'value='Puppy' checked> Puppy 
         <input type="checkbox" name='pet' value='Kitten'> Kitten
         <input type="checkbox" name='pet' value='Other'> Other <br>
+        <!-- Radio -->
+        Your fur-friend is a: <input type="radio" name='gender' value='male'> Boy 
+        <input type="radio" name='gender' value='female' checked> Girl <br>
         <!-- Text -->
         We are listening! <input type="text" name='messagebox'minlength="10" placeholder='Tell us your story about your pet and your shared memory!' required><br>
         <BUTTON name='submit' type='submit'>Submit</BUTTON><br>
