@@ -23,10 +23,7 @@ h1 {
     background:#f7e3e5;
 } */
 
-/* @font-face{
-    font-family:"logo-font";
-    src:url(../Assignment4/fonts/LoveYaLikeASister.ttf)
-}
+
 
 /* Header */
 header {
@@ -48,6 +45,12 @@ header {
     font-family:"logo-font",sans-serif;
 
 }
+/* Body */
+.mainwrapper{
+    margin-top:0px;
+    display:flex;
+    flex-direction:column;
+}
 /* Hero */
 .hero {
     /* padding:20px; */
@@ -60,6 +63,7 @@ header {
             url('./images/books-1.jpg');
     background-size:cover;
     background-position:50% 50%;
+    display:flex;
 }
 
 .container{
@@ -86,5 +90,21 @@ h1{
 }
 
 /* Main */
+.wrapper{
+    height:600px;
+    background-image:url(./images/writing-3.jpg);
+    background-size:cover;
+    background-position:50% 50%;
+}
+.quotebox{
+    width:60%;
+    height:300px;
+    display:flex;
+    margin-top: 150px;
+    margin-left:20px;
+}
 
-
+.Btn{
+    display:flex;
+    flex-direction:row;
+}
