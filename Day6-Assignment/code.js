@@ -3,5 +3,6 @@
 
 $('#submitBtn').on('click',function(event){
     event.preventDefault();
-    var numberofcolors = $('form').
+    var numberofcolors = $('form #number');
+    console.log(numberofcolors);
 })

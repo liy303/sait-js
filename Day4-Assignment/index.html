@@ -23,22 +23,32 @@
     </div> 
 </header>
 
-<!-- **Hero** -->    
+<!-- **Hero** --> 
+<div class='mainwrapper'>
     <div class='hero'>
         <div class='container'>
             <div class='hero-content'>
                 <h1>Welcome to Quote Machine</h1>
-                <button>Learn More</button>
+                <!-- <button>Learn More</button> -->
             </div>
         </div>
     </div>
 
 <!-- **Main Parts** -->
-    <div id='wrapper'>
-        <p id='quotegoeshere'></p>
+    <div class='wrapper'>
+        <div class='quotebox'>
+            <p id='quotegoeshere'></p>
+            <!-- <Button id='previousbtn'>Previous</Button>
+            <button id='nextbtn'>Next</button>  -->
+        </div>
+        <div class='Btn'>
+            <button name='pbtn'>Previous</button>
+            <button id='nbtn'>Next</button>
+        </div>
     </div>
-    <Button id='previousbtn'>Previous</Button>
-    <button id='nextbtn'>Next</button>
+</div> 
+
+ 
 <!-- <button id='myBtn1' onclick=previouwQuote()>Previous</button>
 <button id='myBtn2' onclick=nextQuote()>Next</button> -->
     <script src='mycode.js'></script>
