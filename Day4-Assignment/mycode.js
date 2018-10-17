@@ -11,16 +11,59 @@ var quotes = ["Don't cry because it's over, smile because it happened.― Dr. Se
 var i=0;
 setInterval(function(){
     document.getElementById('quotegoeshere').innerHTML=quotes[i++];
-    if (i==quotes.length) i=0;},5000);
-
-
-document.getElementById('quotegoeshere').style.color='white';
+    if (i==quotes.length) i=0;},3000);
+document.getElementById('quotegoeshere').style.color='blue';
 document.getElementById('quotegoeshere').style.fontSize='35px';
 document.getElementById('quotegoeshere').style.textAlign='center';
 document.getElementById('quotegoeshere').style.fontFamily='h1-font';
+// function updateQuotes(){
+//     if (var i=0; i<=quotes.length; i++) {
+//     document.write(quotes[i]);
+//     }
+// }
+// updateQuotes();
+// setInterval(updateQuotes,3000)
+// document.getElementById('wrapper').style.backgroundColor='pink';
+// document.getElementById('wrapper').style.height='300px';
+// document.getElementById('wrapper').style.marginTop='0px';
 
-// var pBtn = document.getElementById('pbtn');
-// pBtn.addEventListener("click", function(event){
-//     event.preventDefault();
-//     alert('previous quote!');
-// )}
+// document.getElementsByTagName(p).innerHtml=quotes[0];
+// for (i=0; i<quotes.length; i++){
+//     document.getElementsByTagName(p).innerHTML='quotes[i]';
+    
+//     }
+// }
+// //     document.getElementById('quote1').innerHTML=x;
+//     console.log(quotes(i));
+// }
+
+// var btn2=document.getElementById('myBtn2');
+// btn2.addEventListener('click',function nextQuote{}
+//     btn2=event.currentTarget;
+//     btn2.style.backgrounColor='pink';
+// }
+// var button1=document.getElementById('myBtn1');
+// button1.addEventListener("click",function(event){
+
+// for (var i=0; i<= quotes.length; i++){
+//     // document.write(quotes[i]);
+//     // console.log(quotes[i]);
+// }
+
+// function changeQuote(){
+//     document.getElementById()
+// }
+// var button= getElementById('myBtn');
+
+// function  {
+//     location.href="#top";
+// }
+// function locationReplace(){
+//     location.replace("#top");
+// }
+
+// var pageBody = document.getElementById(QuoteBox);
+// var newImg = document.createElenment('img');
+// newImg.src = './images/writing-1.jpg';
+// newImg.style.border = '1px solid black';
+// pageBody.appendChild(newImg);
