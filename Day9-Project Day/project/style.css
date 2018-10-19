@@ -1,67 +1,128 @@
+/* Fonts */
 @font-face{
     font-family:'font1';
     src:url(./../fonts/PermanentMarker-Regular.ttf)
 }
-
-
-.container{
+@font-face{
+    font-family:'font2';
+    src:url(./../fonts/TheGirlNextDoor.ttf)
+}
+@font-face{
+    font-family:"font3";
+    src:url(./../fonts/Mogra-Regular.ttf)
+}
+@font-face{
+    font-family:'font4';
+    src:url(./../fonts/BubblegumSans-Regular.ttf)
+}
+@font-face{
+    font-family:'font5';
+    src:url(./../fonts/Vidaloka-Regular.ttf)
+}
+/* ------------------------Header ---------------------------------*/
+.wrapper{
+    display:flex;
+    flex-direction:row;
+}
+.logocontainer{
     margin-top:10px;
     color:white;
-    /* margin-left:10px; */
     white-space:nowrap;
-    font-family:"font1",sans-serif;
+    font-family:"font3",sans-serif;
     font-size:20px;
+    margin-left:30px;
+}
+.vplogocontainer{
+    margin-top:10px;
+    color:black;
+    white-space:nowrap;
+    font-family:"font3",sans-serif;
+    font-size:20px;
+    margin-left:30px;
 }
 .logo{
     margin-right:auto;
 }
+.clockcontainer{
+    position:absolute;
+    right:30px;
+    margin-top:10px;
+    color:white;
+    font-family:"font3",sans-serif;
+    font-size:16px;
+}
 
+/*------------------Body---------------------------*/
 body{
     background-image:url('./../images/travel-7.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position:10% 10%;
 }
-
-/* Footer */
-/* footer {
-    height: 300px;
-    background: rgb(248, 192, 192);
-    padding:5px 0px;
+.vpbody{
+    background-image:url('./../images/background-1.jpg');
 }
-
-footer h2{
-    color:#4d4d4d;
-    font-family:"footer-header-font",sans-serif;
-    font-weight:bold;
-    font-size:0.9em;
-    text-transform:uppercase;
-    margin:10px 0 20px 0;
+.contactbody{
+    background-image:url('./../images/travel-1.jpg');
 }
-
-footer ul{
-    margin:0 0 20px 0;
-    padding:0;
+ul{
+    padding:30px;
+    list-style-type:none;
+    text-decoration: none;
+    font-family:"font4",sans-serif;
+    font-size:30px;
 }
-
-footer li{
-    list-style:none;
-    margin-top:8px;
-    font-family:"footer-font",sans-serif;
+h1{
+    margin-left:30px;
     font-size:25px;
+    color:lightgreen;
+    font-family:"font5",sans-serif;
 }
-
-footer a{
-    color:gray;
-    text-decoration:none;
-    font-size:0.8em;
-    font-weight:300;
+p{
+    margin-left:25px;
+    color:lightgrey;
+    padding:20px;
 }
-
-.social-icons{
-    display:flex;
+.vpmaincontainer{
+    margin-top:40px;
 }
-
-.social-icons li{
-    flex: 1;
+.vpp{
+    color:black;
+}
+.vph1{
+    color:black;
+}
+.btn1{
+    margin-left:40px;
+    background:lightblue;
+}
+.contacth1{
+    color:darkblue;
+    font-family:'font2',sans-serif;
+}
+.contactp{
+    background-color:white;
+    height:300px;
+}
+.rbody{
+    background-image:url('./../images/travel-14.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:10% 10%;
+}
+.addressbox{
+    width:400px;
+}
+.email{
+    width:150px;
+}
+.submit{
+    background-color:grey;
+}
+/* -----------------------Footer---------------------- */
+/* footer{
+    height:100px;
+    background:pink;
+    position:absolute;
+    bottom:0;
 } */
